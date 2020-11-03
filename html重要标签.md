@@ -21,14 +21,15 @@
    <a href="id=xxx">点击跳转</a>
    ```
  <br>
- * target属性
-  ```html
+ 
+* target属性
+```html
    <a href="//:baidu.com" target="_blank">在新页面打开</a>
     <a href="//:baidu.com" target="_self">在自身面打开，为默认值</a>
     <a href="//:baidu.com" target="_top">在顶部窗口打开</a>
     <a href="//:baidu.com" target="_parent">在上一级的窗口打开</a>
 ```
-
+* 怎么使用target去实先一个页面内可切换两个搜索殷勤
 1. 插入一个iframe（内嵌浏览器），命名为xxx,
 2. 当点击第一个链接baidu时，会在名为xxx的内嵌浏览器里打开百度
 3. 当点击第二个链接sohu时，会在名为xxx的内嵌浏览器里打搜狐
