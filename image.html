@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ch-ZH">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        img{
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <img id="xxx" src="/2.jpg" alt="傅菁">
+
+    <script>
+        xxx.onload = function(){
+            console.log('加载成功');
+        } 
+        xxx.onerror = function(){
+            console.log('加载失败');
+            xxx.src ='/404.png'
+        } 
+    </script>
+</body>
+</html>
